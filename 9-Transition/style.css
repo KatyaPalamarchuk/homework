@@ -1,0 +1,49 @@
+.btn{
+    border: none;
+    padding: 20px 40px;
+    background-color: yellowgreen;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    width: 200px;
+}
+.btn:hover{
+    background-color: green;
+}
+.btn, .btn:hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.btn:active{
+    width: 300px;
+    transition-timing-function: cubic-bezier(1.000, -0.005, 0.000, 1.650); /* custom */
+    transition-duration: 0.5s;
+
+}
+.container{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.loader{
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    background: grey;
+    animation: loader 4s ease infinite ;
+}
+@keyframes loader{
+    0%, 100%{
+        transform: none;
+    }
+    25%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        transform: translateY(100%);
+    }
+}

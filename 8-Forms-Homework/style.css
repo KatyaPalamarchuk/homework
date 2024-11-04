@@ -1,0 +1,47 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    gap: 10px;
+    font-family: "Monsieur La Doulaise", sans-serif;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-family: "Monsieur La Doulaise", sans-serif;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+input::placeholder{
+    color: black;
+    font-family: "Monsieur La Doulaise", sans-serif;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 50px;
+
+    background-color: aqua;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: burlywood;
+}

@@ -1,0 +1,25 @@
+button:hover{
+    background: red;
+    color: white;
+}
+button:active{
+    background: blue;
+}
+a:visited{
+    padding: 20px;
+    background: blueviolet;
+    color: blueviolet;
+}
+button:not(.btn){
+    padding: 10px;
+}
+h2:before{
+    content: "*";
+}
+body{
+    font-family: "Playfair Display", serif;
+}
+button{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
